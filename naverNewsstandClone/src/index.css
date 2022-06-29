@@ -1,0 +1,108 @@
+.banner {
+  display: flex;
+  padding: 22px 0 16px 0;
+  align-items: center;
+}
+
+.banner__title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.banner__title:visited {
+  color: black;
+}
+
+.banner__title__img {
+  width: 27px;
+  height: 24px;
+}
+
+.banner__button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 18px;
+}
+.banner__button--clicked {
+  font-weight: bold;
+}
+
+.box__item {
+  box-sizing: border-box;
+  width: 124.609px;
+  height: 65px;
+  border: 1px solid #dae1e6;
+  padding: 23px 0 22px;
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 750px;
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #dae1e6;
+}
+
+.box__item:hover {
+  background-color: #f7f9fa;
+}
+
+.box__item:hover > .box__item__img {
+  display: none;
+}
+.box__item__img img {
+  width: 64px;
+  height: 20px;
+}
+
+.error {
+  box-sizing: border-box;
+  width: 750px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dae1e6;
+  border-bottom: 1px solid #dae1e6;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕',
+    helvetica, 'Apple SD Gothic Neo', sans-serif;
+  letter-spacing: -0.2px;
+  color: #404040;
+}
+
+.error__title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.error__msg {
+  margin-top: 11px;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.error__button {
+  display: inline-block;
+  margin-top: 20px;
+  height: 40px;
+  padding: 0 14px;
+  background-color: #3565c9;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  line-height: 40px;
+  color: #fff;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 12px;
+}
