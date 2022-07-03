@@ -1,7 +1,9 @@
 import pressList from './pressList';
+import { useState } from 'react';
 
 function Box(props) {
-  if (props.stateValue === 0) {
+  let key = 0;
+  if (!props.shouldDisplay) {
     return (
       <section div className="error">
         <div className="error__title">구독한 언론사가 없습니다.</div>
@@ -18,9 +20,9 @@ function Box(props) {
         </a>
       </section>
     );
-  } else if (props.stateValue === 1) {
+  } else if (props.shouldDisplay) {
     const items = pressList.map((press) => (
-      <div className="box__item">
+      <div key={key++} className="box__item">
         <div className="box__item__img">
           <img src={press[0]} alt={press[1]} />
         </div>

@@ -1,3 +1,8 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕',
+    helvetica, 'Apple SD Gothic Neo', sans-serif;
+  letter-spacing: -0.2px;
+}
 .banner {
   display: flex;
   padding: 22px 0 16px 0;
@@ -11,6 +16,8 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+  width: 100.555px;
+  height: 18px;
 }
 
 .banner__title:visited {
@@ -31,6 +38,27 @@
 }
 .banner__button--clicked {
   font-weight: bold;
+}
+
+.subscribed {
+  padding: 0 0 0 10px;
+}
+
+.total {
+  padding-left: 5px;
+}
+
+.total::before {
+  background-color: #c7ccd1;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  vertical-align: top;
+  content: '';
+  margin: 0 8px 0 4px;
+  vertical-align: 3px;
 }
 
 .box__item {
@@ -74,9 +102,6 @@
   border-top: 1px solid #dae1e6;
   border-bottom: 1px solid #dae1e6;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕',
-    helvetica, 'Apple SD Gothic Neo', sans-serif;
-  letter-spacing: -0.2px;
   color: #404040;
 }
 
@@ -93,7 +118,6 @@
 }
 
 .error__button {
-  display: inline-block;
   margin-top: 20px;
   height: 40px;
   padding: 0 14px;

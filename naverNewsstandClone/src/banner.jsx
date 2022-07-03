@@ -11,9 +11,9 @@ function Banner() {
     clickedButton.classList.remove('banner__button--clicked');
     e.target.classList.add('banner__button--clicked');
     if (e.target.classList.contains('subscribed')) {
-      setStateValue((stateValue) => (stateValue = 0));
+      setStateValue(0);
     } else {
-      setStateValue((stateValue) => (stateValue = 1));
+      setStateValue(1);
     }
   };
 
@@ -35,15 +35,14 @@ function Banner() {
         <button className="banner__button subscribed" onClick={onClick}>
           구독한 언론사
         </button>
-        －
         <button
-          className="banner__button banner__button--clicked "
+          className="banner__button total banner__button--clicked "
           onClick={onClick}
         >
           전체언론사
         </button>
       </header>
-      <Box stateValue={stateValue}></Box>
+      <Box shouldDisplay={stateValue}></Box>
     </section>
   );
 }
