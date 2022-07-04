@@ -1,0 +1,39 @@
+.error {
+  box-sizing: border-box;
+  width: 750px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dae1e6;
+  border-bottom: 1px solid #dae1e6;
+  text-align: center;
+  color: #404040;
+}
+
+.error__title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.error__msg {
+  margin-top: 11px;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.error__button {
+  margin-top: 20px;
+  height: 40px;
+  padding: 0 14px;
+  background-color: #3565c9;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  line-height: 40px;
+  color: #fff;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: 12px;
+}

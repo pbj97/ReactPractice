@@ -1,0 +1,30 @@
+.box {
+  position: relative;
+  width: 750px;
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #dae1e6;
+}
+
+.box__left-button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 42%;
+  left: -20px;
+  position: absolute;
+  font-size: 38px;
+  padding: 0 10px;
+}
+
+.box__right-button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 42%;
+  left: 725px;
+  position: absolute;
+  font-size: 38px;
+  padding: 0 10px;
+}

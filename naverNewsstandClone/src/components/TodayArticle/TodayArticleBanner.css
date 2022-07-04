@@ -1,0 +1,104 @@
+.today-article__banner {
+  position: relative;
+}
+
+.today-article__banner__left-button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 50%;
+  left: -20px;
+  position: absolute;
+  font-size: 32px;
+  padding: 0 10px;
+}
+
+.today-article__banner__right-button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 50%;
+  left: 730px;
+  position: absolute;
+  font-size: 32px;
+  padding: 0 10px;
+}
+.today-article__banner__title {
+  display: flex;
+  width: 750px;
+  height: 16.5px;
+  margin-bottom: 20px;
+}
+
+.today-article__banner__title .title {
+  font-size: 14px;
+  line-height: 16px;
+}
+.today-article__banner__title .sub-title {
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 8px;
+}
+
+.today-article__banner__title .info {
+  font-size: 12px;
+  margin-left: 360px;
+}
+
+.today-article__banner__buttons {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  overflow: hidden;
+  width: 750px;
+  height: 49px;
+  border: 1px solid #dae1e6;
+}
+
+.today-article__banner__buttons button {
+  font-size: 13px;
+  line-height: 49px;
+  font-weight: 700;
+  text-align: center;
+  outline: 0;
+  border: 1px solid #dae1e6;
+  background-color: white;
+  width: 93.5px;
+  height: 47.5px;
+  cursor: pointer;
+}
+.today-article__banner__button.clicked {
+  color: white;
+}
+.today-article__banner__button.clicked.a {
+  background-color: #e65da0;
+  border: none;
+}
+.today-article__banner__button.clicked.b {
+  background-color: #0247b5;
+  border: none;
+}
+.today-article__banner__button.clicked.c {
+  background-color: #4a94e1;
+  border: none;
+}
+.today-article__banner__button.clicked.d {
+  background-color: #66c971;
+  border: none;
+}
+.today-article__banner__button.clicked.e {
+  background-color: #36ae5e;
+  border: none;
+}
+.today-article__banner__button.clicked.f {
+  background-color: #5290ff;
+  border: none;
+}
+.today-article__banner__button.clicked.g {
+  background-color: #ebaa00;
+  border: none;
+}
+.today-article__banner__button.clicked.h {
+  background-color: #c08d30;
+  border: none;
+}

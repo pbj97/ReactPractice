@@ -1,0 +1,8 @@
+.box {
+  position: relative;
+  width: 750px;
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #dae1e6;
+}

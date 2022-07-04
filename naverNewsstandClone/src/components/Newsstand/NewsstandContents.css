@@ -1,0 +1,24 @@
+.box__item {
+  width: 124.609px;
+  height: 65px;
+  border: 1px solid #dae1e6;
+  padding: 23px 0 22px;
+  text-align: center;
+}
+
+.box__item:hover {
+  background-color: #f7f9fa;
+}
+
+.box__item__img img {
+  width: 64px;
+  height: 20px;
+}
+
+.box__item__button {
+  padding: 5px;
+  outline: 0;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #dae1e6;
+}
