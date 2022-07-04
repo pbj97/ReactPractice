@@ -1,1 +1,1 @@
-# React 공부하며 연습했던것들 저장소
+# https://www.udemy.com/course/best-react/ 강의의 프로젝트 공부한것
